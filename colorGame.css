@@ -1,0 +1,77 @@
+/*
+=============================================
+Created By Salami Usman Olawale (Walexitino)
+Email: youngstar2450@gmail.com
+=============================================
+*/
+
+body{
+	background-color: #232323;
+	margin: 0;
+	font-family: Raleway;
+	font-weight: normal;
+}
+
+.circle{
+	width: 30%;
+	padding-bottom: 30%;
+	margin: 1.66%;
+	background-color: blue;
+	float: left;
+	transition: background 0.6s;
+	-webkit-transition: background 0.6s;
+	-moz-transition: background 0.6s;
+	border-radius: 50%;
+}
+
+#container{
+	max-width: 600px;
+	margin: 20px auto;
+}
+h1{
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
+	background-color: steelblue;
+}
+
+#stripe{
+	background: white;
+	text-align: center;
+	color: black;
+	height: 30px;
+}
+#message{
+	display: inline-block;
+	width: 20%;
+}
+#colorDisplay{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.selected{
+	background-color: steelblue;
+	color: white;
+
+}
+button{
+	background: none;
+	border: none;
+	height: 100%;
+	text-transform: uppercase;
+	margin: 0;
+	font-weight: bolder;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	outline: none;
+}
+button:hover{
+	background: steelblue;
+	color: white;
+	transition: all 0.6s;
+	-webkit-transition: all 0.6s;
+	-moz-transition: all 0.6s;
+}
